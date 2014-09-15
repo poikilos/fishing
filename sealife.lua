@@ -141,3 +141,17 @@ minetest.register_abm({
 		end
 	end,
 })
+
+-- Sashimi (Thanks to Natalia Grosner for letting me use the sashimi image)
+minetest.register_craftitem("fishing:sashimi", {
+	description = "Sashimi",
+	inventory_image = "sashimi.png",
+	on_use = minetest.item_eat(4),
+})
+
+minetest.register_craft({
+	output = "fishing:sashimi 2",
+	recipe = {
+		{'fishing:seaweed','fishing:fish_raw','fishing:seaweed'},
+	}
+})
