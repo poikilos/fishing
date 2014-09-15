@@ -10,3 +10,5 @@ Ethereal by Chincow
 Updated and maintained by TenPlus1
 Extracted with small modification by Xanthin
 https://forum.minetest.net/viewtopic.php?f=11&t=4375&p=154166#p154164
+
+Note: rename the folder into "fishing", but actual the textures are missing here, so better use the uploaded file in the forum.
