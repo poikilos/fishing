@@ -7,10 +7,10 @@
 
 	Updated by TenPlus1
 
-	Extracted by Xanthin
+	Extracted with little changes by Xanthin
 
 ]]
 
-ethereal = {}
+fishing = {}
 dofile(minetest.get_modpath("fishing").."/fishing.lua")
 dofile(minetest.get_modpath("fishing").."/sealife.lua")
