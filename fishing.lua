@@ -43,7 +43,7 @@ minetest.register_craftitem("fishing:fishing_rod_baited", {
 						inv:add_item("main", {name="fishing:fish_raw"})
 						return {name="fishing:fishing_rod"}
 					else
-				minetest.chat_send_player(user:get_player_name(), "Your Fish Got Away! Inventory Too Full")
+				minetest.chat_send_player(user:get_player_name(), "Your fish got away! Inventory is full.")
 					end
 				end
 			end
@@ -61,11 +61,10 @@ minetest.register_craft({
 		}
 })
 
--- Sift through 4 Dirt Blocks to find Worm
+-- Sift through 2 Dirt Blocks to find Worm
 minetest.register_craft({
 	output = "fishing:worm",
 	recipe = {
-		{"default:dirt","default:dirt"},
 		{"default:dirt","default:dirt"},
 	}
 })
