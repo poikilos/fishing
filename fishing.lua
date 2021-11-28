@@ -43,7 +43,7 @@ minetest.register_craftitem("fishing:fishing_rod_baited", {
 						inv:add_item("main", {name="fishing:fish_raw"})
 						return {name="fishing:fishing_rod"}
 					else
-				minetest.chat_send_player(user:get_player_name(), "Your fish got away! Inventory is full.")
+				minetest.chat_send_player(user:get_player_name(), "Your Fish Got Away! Inventory Too Full")
 					end
 				end
 			end

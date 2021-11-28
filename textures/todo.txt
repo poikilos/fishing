@@ -1,1 +1,0 @@
-Texture files have to be uploaded when I am able to use github not only in the browser.
